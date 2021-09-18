@@ -1,1 +1,1 @@
-Simple web console rock-paper-scissors game
+Simple console rock-paper-scissors game using javascript
