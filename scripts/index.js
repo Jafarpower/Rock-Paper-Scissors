@@ -48,7 +48,7 @@ function game() {
     let round = playRound(playerSelection);
     console.log(round);
 
-    // roundWinner assign 4 if true and -1 if false
+    // roundWinner assign 4 if word found and -1 if  word not found
     let roundWinner = round.search("win");
 
     if (roundWinner === 4) {
