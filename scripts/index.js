@@ -11,9 +11,8 @@ function computerPlay() {
 // function playRound()
 // start a round of rock-paper-scissors between playerSelection and computerSelection
 function playRound(playerSelection) {
-  // playerSelection assign playerSelection function toLowerCase
+  // playerSelection assign playerSelection string to lowercase
   playerSelection = playerSelection.toLowerCase();
-  // variable computerSelection assign function computerPlay()
   let computerSelection = computerPlay();
 
   if (playerSelection === "rock" && computerSelection === "Paper") {
